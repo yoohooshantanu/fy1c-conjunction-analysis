@@ -1,0 +1,12 @@
+{
+  "headline": "A typical satellite at 600-900km altitude faces ~3 Fengyun-1C conjunction alerts per month",
+  "detail": "~0.8 alerts/week from debris of a single 2007 ASAT test",
+  "avg_per_month": 3.3,
+  "avg_per_week": 0.76,
+  "median_per_month": 3.3,
+  "p75_per_month": 4.3,
+  "worst_per_month": 10.9,
+  "sso_avg_per_month": 2.4,
+  "objects_in_risk_zone": 114,
+  "risk_zone_km": "600-900"
+}

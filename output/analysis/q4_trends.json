@@ -1,0 +1,54 @@
+{
+  "question": "Is the conjunction trend increasing or decreasing?",
+  "trend_direction": "STABLE",
+  "slope_events_per_day": 0.0828,
+  "severity_trend": "WORSENING",
+  "avg_events_per_day": 14.7,
+  "max_events_single_day": 31,
+  "peak_day": "2026-04-13",
+  "first_half_avg": 14.1,
+  "second_half_avg": 15.3,
+  "weekly_breakdown": [
+    {
+      "week": 12,
+      "events": 14,
+      "avg_daily": 7.0,
+      "max_pc": 0.0008556953,
+      "payload_events": 1
+    },
+    {
+      "week": 13,
+      "events": 113,
+      "avg_daily": 16.142857142857142,
+      "max_pc": 0.005394175,
+      "payload_events": 45
+    },
+    {
+      "week": 14,
+      "events": 111,
+      "avg_daily": 15.857142857142858,
+      "max_pc": 0.004599319,
+      "payload_events": 14
+    },
+    {
+      "week": 15,
+      "events": 81,
+      "avg_daily": 11.571428571428571,
+      "max_pc": 0.01057011,
+      "payload_events": 13
+    },
+    {
+      "week": 16,
+      "events": 108,
+      "avg_daily": 18.0,
+      "max_pc": 0.004712152,
+      "payload_events": 36
+    }
+  ],
+  "daily_stats": {
+    "min_events": 1,
+    "max_events": 31,
+    "std_events": 8.3
+  },
+  "finding": "Trend is STABLE (+0.08 events/day). Average 14.7 events/day, peak 31 events. Severity is WORSENING. First half avg: 14.1/day, second half: 15.3/day."
+}

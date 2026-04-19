@@ -1,0 +1,65 @@
+{
+  "question": "Which orbits are most affected?",
+  "altitude_bands": {
+    "fy1c_distribution": {
+      "<400": 0,
+      "400-500": 2,
+      "500-600": 21,
+      "600-700": 84,
+      "700-800": 229,
+      "800-900": 91,
+      "900-1000": 0,
+      "1000-1200": 0,
+      "1200+": 0
+    },
+    "partner_distribution": {
+      "<400": 0,
+      "400-500": 0,
+      "500-600": 25,
+      "600-700": 43,
+      "700-800": 180,
+      "800-900": 122,
+      "900-1000": 39,
+      "1000-1200": 13,
+      "1200+": 5
+    },
+    "peak_band_km": "700-800",
+    "peak_count": 229
+  },
+  "inclination_clusters": {
+    "fy1c_distribution": {
+      "0-30": 0,
+      "30-60": 0,
+      "60-80": 0,
+      "80-90": 0,
+      "90-100": 412,
+      "100-110": 15,
+      "110+": 0
+    },
+    "partner_distribution": {
+      "0-30": 0,
+      "30-60": 23,
+      "60-80": 98,
+      "80-90": 177,
+      "90-100": 125,
+      "100-110": 4,
+      "110+": 0
+    },
+    "dominant_cluster": "90-100"
+  },
+  "fy1c_median_perigee_km": 762.9,
+  "fy1c_median_inclination": 98.8,
+  "countries_most_affected": {
+    "CIS": 169,
+    "PRC": 100,
+    "US": 97,
+    "FR": 12,
+    "BRAZ": 6,
+    "ORB": 3,
+    "TBD": 2,
+    "JPN": 2,
+    "SAFR": 1,
+    "SKOR": 1
+  },
+  "finding": "Conjunctions concentrate in the 700-800 km altitude band (229 events). FY-1C debris clusters near 98.8deg inclination (sun-synchronous). Top affected countries: CIS, PRC, US."
+}

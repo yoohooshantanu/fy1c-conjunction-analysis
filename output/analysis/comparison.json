@@ -1,0 +1,48 @@
+{
+  "headline": "FY-1C conjunctions have 1.0x lower median Pc (2.52e-04 vs 2.52e-04) compared to all other LEO conjunction events.",
+  "comparisons": {
+    "Median Pc": {
+      "fy1c": 0.0002522665,
+      "non_fy": 0.0002522665,
+      "ratio": 1.0
+    },
+    "Mean Pc": {
+      "fy1c": 0.0005862715871194378,
+      "non_fy": 0.0014123086048478597,
+      "ratio": 0.42
+    },
+    "Max Pc": {
+      "fy1c": 0.01057011,
+      "non_fy": 0.114766,
+      "ratio": 0.09
+    },
+    "75th pctile Pc": {
+      "fy1c": 0.0005195457,
+      "non_fy": 0.0005869705,
+      "ratio": 0.89
+    },
+    "Median miss (km)": {
+      "fy1c": 143.0,
+      "non_fy": 278.0,
+      "ratio": 0.51
+    },
+    "Mean miss (km)": {
+      "fy1c": 222.92740046838406,
+      "non_fy": 764.4236559139785,
+      "ratio": 0.29
+    },
+    "Min miss (km)": {
+      "fy1c": 1.0,
+      "non_fy": 1.0,
+      "ratio": 1.0
+    },
+    "pct_above_1e-04": {
+      "fy1c": 100.0,
+      "non_fy": 100.0
+    },
+    "pct_above_1e-03": {
+      "fy1c": 12.9,
+      "non_fy": 15.1
+    }
+  }
+}

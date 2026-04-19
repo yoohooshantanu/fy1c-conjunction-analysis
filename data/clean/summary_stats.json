@@ -1,0 +1,42 @@
+{
+  "total_cdm_records": 427,
+  "unique_fy1c_debris_pieces": 137,
+  "unique_conjunction_partners": 139,
+  "date_range": {
+    "earliest_tca": "2026-03-21T08:35:41.865000",
+    "latest_tca": "2026-04-18T16:43:59.218000"
+  },
+  "miss_distance_km": {
+    "mean": 222.9274,
+    "median": 143.0,
+    "min": 1.0,
+    "max": 999.0,
+    "std": 219.0105
+  },
+  "collision_probability": {
+    "max": 0.01057011,
+    "mean": 0.0005862715871194378,
+    "median": 0.0002522665,
+    "events_above_1e-4": 427,
+    "events_above_1e-5": 427,
+    "events_above_1e-6": 427
+  },
+  "emergency_reportable_count": 427,
+  "conjunctions_by_partner_type": {
+    "DEBRIS": 210,
+    "PAYLOAD": 109,
+    "ROCKET BODY": 71,
+    "UNKNOWN": 37
+  },
+  "debris_on_debris_count": 22,
+  "monthly_distribution": {
+    "2026-03": 154,
+    "2026-04": 273
+  },
+  "pipeline_run": {
+    "timestamp": "2026-04-19T08:31:04.307726Z",
+    "date_from": "2025-01-01",
+    "date_to": "2026-04-19",
+    "leo_filter": true
+  }
+}

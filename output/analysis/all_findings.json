@@ -1,0 +1,348 @@
+{
+  "title": "Fengyun-1C Debris and Its Role in LEO Conjunction Risk (2026)",
+  "findings": [
+    "Fengyun-1C debris accounts for 15.6% of ALL conjunction events and 18.8% of all debris-involved conjunctions in LEO. Only 137 of 3531 cataloged fragments (3.9%) were involved in conjunction events during this period.",
+    "Conjunctions concentrate in the 700-800 km altitude band (229 events). FY-1C debris clusters near 98.8deg inclination (sun-synchronous). Top affected countries: CIS, PRC, US.",
+    "32 active payloads are at risk. Most dangerous: GGSE 5 with Pc=1.06e-02. Top countries: CIS, US, BRAZ.",
+    "Trend is STABLE (+0.08 events/day). Average 14.7 events/day, peak 31 events. Severity is WORSENING. First half avg: 14.1/day, second half: 15.3/day."
+  ],
+  "q1": {
+    "question": "How common is Fengyun-1C debris in LEO conjunctions?",
+    "period": "2026-03-21 to 2026-04-18",
+    "total_cdm_events": 2738,
+    "fengyun_cdm_events": 427,
+    "fengyun_share_pct": 15.6,
+    "total_debris_events": 2277,
+    "debris_share_of_all_pct": 83.16,
+    "fengyun_share_of_debris_pct": 18.75,
+    "total_fy1c_debris_cataloged": 3531,
+    "fy1c_pieces_in_conjunctions": 137,
+    "fy1c_active_pct": 3.88,
+    "finding": "Fengyun-1C debris accounts for 15.6% of ALL conjunction events and 18.8% of all debris-involved conjunctions in LEO. Only 137 of 3531 cataloged fragments (3.9%) were involved in conjunction events during this period."
+  },
+  "q2": {
+    "question": "Which orbits are most affected?",
+    "altitude_bands": {
+      "fy1c_distribution": {
+        "<400": 0,
+        "400-500": 2,
+        "500-600": 21,
+        "600-700": 84,
+        "700-800": 229,
+        "800-900": 91,
+        "900-1000": 0,
+        "1000-1200": 0,
+        "1200+": 0
+      },
+      "partner_distribution": {
+        "<400": 0,
+        "400-500": 0,
+        "500-600": 25,
+        "600-700": 43,
+        "700-800": 180,
+        "800-900": 122,
+        "900-1000": 39,
+        "1000-1200": 13,
+        "1200+": 5
+      },
+      "peak_band_km": "700-800",
+      "peak_count": 229
+    },
+    "inclination_clusters": {
+      "fy1c_distribution": {
+        "0-30": 0,
+        "30-60": 0,
+        "60-80": 0,
+        "80-90": 0,
+        "90-100": 412,
+        "100-110": 15,
+        "110+": 0
+      },
+      "partner_distribution": {
+        "0-30": 0,
+        "30-60": 23,
+        "60-80": 98,
+        "80-90": 177,
+        "90-100": 125,
+        "100-110": 4,
+        "110+": 0
+      },
+      "dominant_cluster": "90-100"
+    },
+    "fy1c_median_perigee_km": 762.9,
+    "fy1c_median_inclination": 98.8,
+    "countries_most_affected": {
+      "CIS": 169,
+      "PRC": 100,
+      "US": 97,
+      "FR": 12,
+      "BRAZ": 6,
+      "ORB": 3,
+      "TBD": 2,
+      "JPN": 2,
+      "SAFR": 1,
+      "SKOR": 1
+    },
+    "finding": "Conjunctions concentrate in the 700-800 km altitude band (229 events). FY-1C debris clusters near 98.8deg inclination (sun-synchronous). Top affected countries: CIS, PRC, US."
+  },
+  "q3": {
+    "question": "Who is at risk from Fengyun-1C debris?",
+    "payloads_at_risk": 32,
+    "total_payload_events": 109,
+    "top_15_payloads": [
+      {
+        "other_object_name": "COSMOS 923",
+        "other_norad_id": 10120,
+        "country": "CIS",
+        "constellation": "COSMOS (Russia)",
+        "event_count": 10,
+        "max_pc": 0.005394175,
+        "min_miss_km": 27.0
+      },
+      {
+        "other_object_name": "ANNA 1B",
+        "other_norad_id": 446,
+        "country": "US",
+        "constellation": "Other",
+        "event_count": 7,
+        "max_pc": 0.001066252,
+        "min_miss_km": 83.0
+      },
+      {
+        "other_object_name": "COSMOS 1428",
+        "other_norad_id": 13757,
+        "country": "CIS",
+        "constellation": "COSMOS (Russia)",
+        "event_count": 7,
+        "max_pc": 0.004712152,
+        "min_miss_km": 20.0
+      },
+      {
+        "other_object_name": "COSMOS 1503",
+        "other_norad_id": 14401,
+        "country": "CIS",
+        "constellation": "COSMOS (Russia)",
+        "event_count": 7,
+        "max_pc": 0.00558139,
+        "min_miss_km": 46.0
+      },
+      {
+        "other_object_name": "IRIDIUM 26",
+        "other_norad_id": 24903,
+        "country": "US",
+        "constellation": "Iridium",
+        "event_count": 7,
+        "max_pc": 0.00127145,
+        "min_miss_km": 78.0
+      },
+      {
+        "other_object_name": "COSMOS 586",
+        "other_norad_id": 6828,
+        "country": "CIS",
+        "constellation": "COSMOS (Russia)",
+        "event_count": 6,
+        "max_pc": 0.0008355712,
+        "min_miss_km": 128.0
+      },
+      {
+        "other_object_name": "OSCAR 17 (DOVE)",
+        "other_norad_id": 20440,
+        "country": "BRAZ",
+        "constellation": "Other",
+        "event_count": 6,
+        "max_pc": 0.0004875596,
+        "min_miss_km": 189.0
+      },
+      {
+        "other_object_name": "SPOT 1",
+        "other_norad_id": 16613,
+        "country": "FR",
+        "constellation": "Other",
+        "event_count": 5,
+        "max_pc": 0.0007374391,
+        "min_miss_km": 23.0
+      },
+      {
+        "other_object_name": "IRIDIUM 920",
+        "other_norad_id": 24871,
+        "country": "US",
+        "constellation": "Iridium",
+        "event_count": 5,
+        "max_pc": 0.0004821906,
+        "min_miss_km": 95.0
+      },
+      {
+        "other_object_name": "TOMS EP",
+        "other_norad_id": 23940,
+        "country": "US",
+        "constellation": "Other",
+        "event_count": 5,
+        "max_pc": 0.0009397268,
+        "min_miss_km": 25.0
+      },
+      {
+        "other_object_name": "COSMOS 2061",
+        "other_norad_id": 20527,
+        "country": "CIS",
+        "constellation": "COSMOS (Russia)",
+        "event_count": 5,
+        "max_pc": 0.0007407155,
+        "min_miss_km": 67.0
+      },
+      {
+        "other_object_name": "COSMOS 1104",
+        "other_norad_id": 11378,
+        "country": "CIS",
+        "constellation": "COSMOS (Russia)",
+        "event_count": 4,
+        "max_pc": 0.001007604,
+        "min_miss_km": 214.0
+      },
+      {
+        "other_object_name": "PORCUPINE 1",
+        "other_norad_id": 1272,
+        "country": "US",
+        "constellation": "Other",
+        "event_count": 4,
+        "max_pc": 0.0002727974,
+        "min_miss_km": 17.0
+      },
+      {
+        "other_object_name": "METEOR 1-5",
+        "other_norad_id": 4419,
+        "country": "CIS",
+        "constellation": "Other",
+        "event_count": 3,
+        "max_pc": 0.0008395707,
+        "min_miss_km": 149.0
+      },
+      {
+        "other_object_name": "COSMOS 1934",
+        "other_norad_id": 18985,
+        "country": "CIS",
+        "constellation": "COSMOS (Russia)",
+        "event_count": 3,
+        "max_pc": 0.0001778825,
+        "min_miss_km": 311.0
+      }
+    ],
+    "country_risk": {
+      "CIS": {
+        "satellites": 14,
+        "events": 53
+      },
+      "US": {
+        "satellites": 11,
+        "events": 36
+      },
+      "BRAZ": {
+        "satellites": 1,
+        "events": 6
+      },
+      "FR": {
+        "satellites": 1,
+        "events": 5
+      },
+      "ORB": {
+        "satellites": 1,
+        "events": 3
+      },
+      "JPN": {
+        "satellites": 1,
+        "events": 2
+      },
+      "PRC": {
+        "satellites": 1,
+        "events": 2
+      },
+      "SAFR": {
+        "satellites": 1,
+        "events": 1
+      },
+      "SKOR": {
+        "satellites": 1,
+        "events": 1
+      }
+    },
+    "constellation_risk": {
+      "COSMOS (Russia)": {
+        "satellites": 12,
+        "events": 49
+      },
+      "Other": {
+        "satellites": 16,
+        "events": 44
+      },
+      "Iridium": {
+        "satellites": 3,
+        "events": 13
+      },
+      "Orbcomm": {
+        "satellites": 1,
+        "events": 3
+      }
+    },
+    "most_dangerous_event": {
+      "satellite": "GGSE 5",
+      "norad_id": 2834,
+      "collision_probability": 0.01057011,
+      "miss_distance_km": 27.0,
+      "tca": "2026-04-07T19:30:07.225000"
+    },
+    "finding": "32 active payloads are at risk. Most dangerous: GGSE 5 with Pc=1.06e-02. Top countries: CIS, US, BRAZ."
+  },
+  "q4": {
+    "question": "Is the conjunction trend increasing or decreasing?",
+    "trend_direction": "STABLE",
+    "slope_events_per_day": 0.0828,
+    "severity_trend": "WORSENING",
+    "avg_events_per_day": 14.7,
+    "max_events_single_day": 31,
+    "peak_day": "2026-04-13",
+    "first_half_avg": 14.1,
+    "second_half_avg": 15.3,
+    "weekly_breakdown": [
+      {
+        "week": 12,
+        "events": 14,
+        "avg_daily": 7.0,
+        "max_pc": 0.0008556953,
+        "payload_events": 1
+      },
+      {
+        "week": 13,
+        "events": 113,
+        "avg_daily": 16.142857142857142,
+        "max_pc": 0.005394175,
+        "payload_events": 45
+      },
+      {
+        "week": 14,
+        "events": 111,
+        "avg_daily": 15.857142857142858,
+        "max_pc": 0.004599319,
+        "payload_events": 14
+      },
+      {
+        "week": 15,
+        "events": 81,
+        "avg_daily": 11.571428571428571,
+        "max_pc": 0.01057011,
+        "payload_events": 13
+      },
+      {
+        "week": 16,
+        "events": 108,
+        "avg_daily": 18.0,
+        "max_pc": 0.004712152,
+        "payload_events": 36
+      }
+    ],
+    "daily_stats": {
+      "min_events": 1,
+      "max_events": 31,
+      "std_events": 8.3
+    },
+    "finding": "Trend is STABLE (+0.08 events/day). Average 14.7 events/day, peak 31 events. Severity is WORSENING. First half avg: 14.1/day, second half: 15.3/day."
+  }
+}
