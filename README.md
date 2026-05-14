@@ -8,7 +8,7 @@ This case study analyzes real conjunction data from the U.S. Space Command (via 
 
 ## The Bottom Line
 
-A typical satellite operating at 600–900 km altitude faces **~3 Fengyun-1C conjunction alerts per month**. The worst-affected satellite receives nearly **11 alerts per month** — one every three days — from this single debris source alone.
+A typical satellite operating at 600–900 km altitude faces **~2.1 Fengyun-1C conjunction alerts per month**. The worst-affected satellite receives nearly **7 alerts per month** — one every four days — from this single debris source alone.
 
 ---
 
@@ -22,11 +22,11 @@ This study uses **Conjunction Data Messages (CDMs)** — the official collision 
 
 ## Key Findings
 
-### Finding 1 — Prevalence: 15.6% of all LEO conjunctions
+### Finding 1 — Prevalence: 13.7% of all LEO conjunctions
 
-Fengyun-1C debris accounts for **427 of 2,738** conjunction events during the study period (March 21 – April 18, 2026). Among all debris-involved conjunctions, FY-1C's share rises to **18.8%**.
+Fengyun-1C debris accounts for **677 of 4,952** conjunction events during the study period (March 21 – May 5, 2026). Among all debris-involved conjunctions, FY-1C's share is **18.5%**.
 
-Only **137 of 3,531** cataloged FY-1C fragments (3.9%) were involved — meaning a small fraction of the cloud drives all the risk.
+**206 of 3,531** cataloged FY-1C fragments (5.8%) were involved — meaning a small fraction of the cloud drives the majority of the risk.
 
 ![Daily conjunction events over time](output/charts/01_event_timeline.png)
 
@@ -34,29 +34,30 @@ Only **137 of 3,531** cataloged FY-1C fragments (3.9%) were involved — meaning
 
 ### Finding 2 — Altitude: Risk peaks at 700–800 km
 
-**229 of 427 events** (54%) occur in the 700–800 km altitude band — directly around the original destruction altitude of ~865 km. FY-1C debris orbits cluster tightly at **98.8° inclination** (sun-synchronous), which is also one of the most commercially valuable orbit regimes.
+**252 of 677 events** (37%) occur in the 700–800 km altitude band — directly around the original destruction altitude of ~865 km. FY-1C debris orbits cluster tightly at **98.8° inclination** (sun-synchronous), which is also one of the most commercially valuable orbit regimes.
 
 ![Altitude distribution of conjunction objects](output/charts/03_altitude_distribution.png)
 
 ---
 
-### Finding 3 — Who's at risk: 32 active payloads threatened
+### Finding 3 — Who's at risk: 53 payloads threatened
 
-**109 conjunction events** involve active payloads. **32 unique operational satellites** from **9 countries** face recurring FY-1C threats:
+**195 conjunction events** involve payloads. **53 unique payloads (both operational and retired)** from **12 countries** face recurring FY-1C threats:
 
 | Satellite | Country | Events | Max Pc | Closest (km) |
 |-----------|---------|--------|--------|---------------|
+| ASTEX 1 | UNK | 10 | 3.43×10⁻² | 15 |
 | COSMOS 923 | Russia | 10 | 5.39×10⁻³ | 27 |
-| IRIDIUM 26 | USA | 7 | 1.27×10⁻³ | 78 |
-| COSMOS 1503 | Russia | 7 | 5.58×10⁻³ | 46 |
-| COSMOS 1428 | Russia | 7 | 4.71×10⁻³ | 20 |
+| COSMOS 1420 | Russia | 8 | 8.03×10⁻⁴ | 141 |
+| COSMOS 1799 | Russia | 8 | 2.66×10⁻⁴ | 355 |
 | ANNA 1B | USA | 7 | 1.07×10⁻³ | 83 |
-| OSCAR 17 (DOVE) | Brazil | 6 | 4.88×10⁻⁴ | 189 |
-| SPOT 1 | France | 5 | 7.37×10⁻⁴ | 23 |
-| IRIDIUM 920 | USA | 5 | 4.82×10⁻⁴ | 95 |
-| TOMS EP | USA | 5 | 9.40×10⁻⁴ | 25 |
+| COSMOS 1428 | Russia | 7 | 4.71×10⁻³ | 20 |
+| COSMOS 1503 | Russia | 7 | 5.58×10⁻³ | 46 |
+| IRIDIUM 26 | USA | 7 | 1.27×10⁻³ | 78 |
+| COSMOS 1777 | Russia | 7 | 8.89×10⁻⁴ | 205 |
+| METEOR 1-16 | Russia | 6 | 2.30×10⁻² | 37 |
 
-The most dangerous single event: **GGSE 5** with a collision probability of **1.06%** and miss distance of 27 km.
+The most dangerous single event: **ASTEX 1** with a collision probability of **3.43%** and miss distance of 2 km.
 
 ![Top 10 most affected objects](output/charts/05_top_affected_satellites.png)
 
@@ -64,8 +65,8 @@ The most dangerous single event: **GGSE 5** with a collision probability of **1.
 
 | Country | Satellites | Events |
 |---------|-----------|--------|
-| Russia (CIS) | 14 | 53 |
-| United States | 11 | 36 |
+| Russia (CIS/UNK) | 35 | 138 |
+| United States | 11 | 37 |
 | Brazil | 1 | 6 |
 | France | 1 | 5 |
 
@@ -73,25 +74,25 @@ The most dangerous single event: **GGSE 5** with a collision probability of **1.
 
 ### Finding 4 — Trend: Stable frequency, worsening severity
 
-The conjunction rate is **stable at ~14.7 events per day** (peak: 31). However, the severity trend is **worsening** — the second half of the observation period shows higher average Pc values than the first half.
+The conjunction rate is **stable at ~15.0 events per day** (peak: 31). However, the severity trend is **worsening** — the second half of the observation period shows higher average frequency and Pc values than the first half.
 
 | Period | Avg Events/Day |
 |--------|---------------|
-| First half (Mar 21 – Apr 3) | 14.1 |
-| Second half (Apr 4 – Apr 18) | 15.3 |
+| First half (Mar 21 – Apr 12) | 13.7 |
+| Second half (Apr 13 – May 5) | 16.3 |
 
 ---
 
 ### Finding 5 — FY-1C passes closer than average
 
-FY-1C conjunctions have **half the median miss distance** of non-FY-1C events:
+FY-1C conjunctions have **~0.55x the median miss distance** of non-FY-1C events:
 
 | Metric | FY-1C | Non-FY-1C | Ratio |
 |--------|-------|-----------|-------|
-| Median miss distance | 143 km | 278 km | 0.51× |
-| Mean miss distance | 223 km | 764 km | 0.29× |
-| Median Pc | 2.52×10⁻⁴ | 2.52×10⁻⁴ | 1.0× |
-| Max Pc | 1.06×10⁻² | 1.15×10⁻¹ | 0.09× |
+| Median miss distance | 153 km | 278 km | 0.55× |
+| Mean miss distance | 230 km | 764 km | 0.30× |
+| Median Pc | 2.35×10⁻⁴ | 2.54×10⁻⁴ | 0.9× |
+| Max Pc | 3.43×10⁻² | 1.15×10⁻¹ | 0.30× |
 
 While collision probabilities are comparable, FY-1C events consistently pass **closer** — increasing the operational burden on conjunction assessment teams.
 
@@ -101,16 +102,16 @@ While collision probabilities are comparable, FY-1C events consistently pass **c
 
 ### Finding 6 — The operational impact
 
-> **A typical satellite at 600–900 km faces ~3 FY-1C conjunction alerts per month.**
+> **A typical satellite at 600–900 km faces ~2.1 FY-1C conjunction alerts per month.**
 
 | Metric | Value |
 |--------|-------|
-| Avg alerts/month per object | 3.3 |
-| Median alerts/month | 3.3 |
-| 75th percentile | 4.3 |
-| Worst-case satellite | 10.9/month |
-| SSO payloads specifically | 2.4/month |
-| Objects in risk zone | 114 |
+| Avg alerts/month per object | 2.1 |
+| Median alerts/month | 2.1 |
+| 75th percentile | 2.8 |
+| Worst-case satellite | 6.9/month |
+| SSO payloads specifically | 1.6/month |
+| Objects in risk zone | 119 |
 
 This means operators must evaluate, screen, and potentially maneuver for FY-1C debris multiple times per month — **from a single event that happened 19 years ago**.
 
@@ -123,12 +124,12 @@ This means operators must evaluate, screen, and potentially maneuver for FY-1C d
 ### Object Type Breakdown
 ![Conjunction partner types](output/charts/04_object_type_breakdown.png)
 
-49% of FY-1C conjunctions involve other debris (unmanoeuvrable), 26% threaten active payloads, 17% involve rocket bodies.
+47% of FY-1C conjunctions involve other debris (unmanoeuvrable), 29% threaten active payloads, 16% involve rocket bodies.
 
 ### Collision Probability Distribution
 ![Pc distribution and scatter](output/charts/06_pc_distribution.png)
 
-All 427 events exceed the 10⁻⁴ screening threshold. 13% exceed 10⁻³ (high risk). The closest approach recorded: **1 km at Pc = 3.42×10⁻³**.
+All 677 events exceed the 10⁻⁴ screening threshold. 13% exceed 10⁻³ (high risk). The closest approach recorded in this window: **1 km at Pc = 1.07×10⁻³**.
 
 ---
 
@@ -136,18 +137,18 @@ All 427 events exceed the 10⁻⁴ screening threshold. 13% exceed 10⁻³ (high
 
 **Source:** [Space-Track.org](https://www.space-track.org) CDM Public Archive (Conjunction Data Messages released 72+ hours after TCA)
 
-**Period:** March 21 – April 18, 2026 (28 days)
+**Period:** March 21 – May 5, 2026 (~45 days)
 
 **Pipeline:**
 1. Fetched 3,532 FY-1C objects from the satellite catalog
-2. Pulled 769 raw CDMs, deduplicated to 427 unique conjunction events
+2. Pulled 1,341 raw CDMs, deduplicated to 677 unique conjunction events
 3. Cross-referenced with GP orbital elements for LEO perigee filtering
-4. Compared against 2,738 total CDMs for the same period
+4. Compared against 4,952 total CDMs for the same period
 
 **Limitations:**
 - CDM public data only includes events archived 72+ hours past TCA
 - Real-time O/O CDMs (with full covariance) are not publicly available
-- The 28-day window captures seasonal snapshot, not year-round trends
+- The 45-day window captures a broader snapshot but still reflects seasonal variances
 - Miss distance values in CDM public are rounded to integers
 
 ---
@@ -220,7 +221,7 @@ If you use this analysis, please cite:
 ```
 Fengyun-1C Debris and Its Role in LEO Conjunction Risk (2026).
 Data source: 18th Space Defense Squadron via Space-Track.org.
-Analysis period: March–April 2026.
+Analysis period: March–May 2026.
 ```
 
 ---

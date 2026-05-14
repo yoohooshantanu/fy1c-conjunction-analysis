@@ -1,42 +1,43 @@
 {
-  "total_cdm_records": 427,
-  "unique_fy1c_debris_pieces": 137,
-  "unique_conjunction_partners": 139,
+  "total_cdm_records": 677,
+  "unique_fy1c_debris_pieces": 206,
+  "unique_conjunction_partners": 215,
   "date_range": {
     "earliest_tca": "2026-03-21T08:35:41.865000",
-    "latest_tca": "2026-04-18T16:43:59.218000"
+    "latest_tca": "2026-05-04T20:31:55.816000"
   },
   "miss_distance_km": {
-    "mean": 222.9274,
-    "median": 143.0,
+    "mean": 229.8168,
+    "median": 153.0,
     "min": 1.0,
     "max": 999.0,
-    "std": 219.0105
+    "std": 221.0107
   },
   "collision_probability": {
-    "max": 0.01057011,
-    "mean": 0.0005862715871194378,
-    "median": 0.0002522665,
-    "events_above_1e-4": 427,
-    "events_above_1e-5": 427,
-    "events_above_1e-6": 427
+    "max": 0.03430419,
+    "mean": 0.0008341684335302806,
+    "median": 0.0002347741,
+    "events_above_1e-4": 677,
+    "events_above_1e-5": 677,
+    "events_above_1e-6": 677
   },
-  "emergency_reportable_count": 427,
+  "emergency_reportable_count": 677,
   "conjunctions_by_partner_type": {
-    "DEBRIS": 210,
-    "PAYLOAD": 109,
-    "ROCKET BODY": 71,
-    "UNKNOWN": 37
+    "DEBRIS": 321,
+    "PAYLOAD": 195,
+    "ROCKET BODY": 105,
+    "UNKNOWN": 56
   },
-  "debris_on_debris_count": 22,
+  "debris_on_debris_count": 41,
   "monthly_distribution": {
     "2026-03": 154,
-    "2026-04": 273
+    "2026-04": 456,
+    "2026-05": 67
   },
   "pipeline_run": {
-    "timestamp": "2026-04-19T08:31:04.307726Z",
-    "date_from": "2025-01-01",
-    "date_to": "2026-04-19",
+    "timestamp": "2026-05-07T04:36:22.621968Z",
+    "date_from": "2026-03-21",
+    "date_to": "2026-05-05",
     "leo_filter": true
   }
 }

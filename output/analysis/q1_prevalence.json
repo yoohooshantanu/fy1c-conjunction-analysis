@@ -1,14 +1,14 @@
 {
   "question": "How common is Fengyun-1C debris in LEO conjunctions?",
-  "period": "2026-03-21 to 2026-04-18",
-  "total_cdm_events": 2738,
-  "fengyun_cdm_events": 427,
-  "fengyun_share_pct": 15.6,
-  "total_debris_events": 2277,
-  "debris_share_of_all_pct": 83.16,
-  "fengyun_share_of_debris_pct": 18.75,
+  "period": "2026-03-21 to 2026-05-04",
+  "total_cdm_events": 4952,
+  "fengyun_cdm_events": 677,
+  "fengyun_share_pct": 13.67,
+  "total_debris_events": 3667,
+  "debris_share_of_all_pct": 74.05,
+  "fengyun_share_of_debris_pct": 18.46,
   "total_fy1c_debris_cataloged": 3531,
-  "fy1c_pieces_in_conjunctions": 137,
-  "fy1c_active_pct": 3.88,
-  "finding": "Fengyun-1C debris accounts for 15.6% of ALL conjunction events and 18.8% of all debris-involved conjunctions in LEO. Only 137 of 3531 cataloged fragments (3.9%) were involved in conjunction events during this period."
+  "fy1c_pieces_in_conjunctions": 206,
+  "fy1c_active_pct": 5.83,
+  "finding": "Fengyun-1C debris accounts for 13.7% of ALL conjunction events and 18.5% of all debris-involved conjunctions in LEO. Only 206 of 3531 cataloged fragments (5.8%) were involved in conjunction events during this period."
 }

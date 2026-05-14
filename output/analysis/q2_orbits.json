@@ -3,28 +3,28 @@
   "altitude_bands": {
     "fy1c_distribution": {
       "<400": 0,
-      "400-500": 2,
-      "500-600": 21,
-      "600-700": 84,
-      "700-800": 229,
-      "800-900": 91,
+      "400-500": 9,
+      "500-600": 27,
+      "600-700": 124,
+      "700-800": 357,
+      "800-900": 160,
       "900-1000": 0,
       "1000-1200": 0,
       "1200+": 0
     },
     "partner_distribution": {
       "<400": 0,
-      "400-500": 0,
-      "500-600": 25,
-      "600-700": 43,
-      "700-800": 180,
-      "800-900": 122,
-      "900-1000": 39,
-      "1000-1200": 13,
-      "1200+": 5
+      "400-500": 3,
+      "500-600": 30,
+      "600-700": 50,
+      "700-800": 339,
+      "800-900": 179,
+      "900-1000": 45,
+      "1000-1200": 18,
+      "1200+": 13
     },
     "peak_band_km": "700-800",
-    "peak_count": 229
+    "peak_count": 357
   },
   "inclination_clusters": {
     "fy1c_distribution": {
@@ -32,34 +32,34 @@
       "30-60": 0,
       "60-80": 0,
       "80-90": 0,
-      "90-100": 412,
-      "100-110": 15,
+      "90-100": 644,
+      "100-110": 33,
       "110+": 0
     },
     "partner_distribution": {
       "0-30": 0,
-      "30-60": 23,
-      "60-80": 98,
-      "80-90": 177,
-      "90-100": 125,
-      "100-110": 4,
+      "30-60": 32,
+      "60-80": 204,
+      "80-90": 222,
+      "90-100": 210,
+      "100-110": 9,
       "110+": 0
     },
     "dominant_cluster": "90-100"
   },
-  "fy1c_median_perigee_km": 762.9,
+  "fy1c_median_perigee_km": 759.8,
   "fy1c_median_inclination": 98.8,
   "countries_most_affected": {
-    "CIS": 169,
-    "PRC": 100,
-    "US": 97,
-    "FR": 12,
+    "CIS": 278,
+    "PRC": 167,
+    "US": 138,
+    "FR": 24,
+    "JPN": 8,
+    "ORB": 6,
     "BRAZ": 6,
-    "ORB": 3,
     "TBD": 2,
-    "JPN": 2,
     "SAFR": 1,
     "SKOR": 1
   },
-  "finding": "Conjunctions concentrate in the 700-800 km altitude band (229 events). FY-1C debris clusters near 98.8deg inclination (sun-synchronous). Top affected countries: CIS, PRC, US."
+  "finding": "Conjunctions concentrate in the 700-800 km altitude band (357 events). FY-1C debris clusters near 98.8deg inclination (sun-synchronous). Top affected countries: CIS, PRC, US."
 }

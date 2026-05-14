@@ -1,35 +1,35 @@
 {
-  "headline": "FY-1C conjunctions have 1.0x lower median Pc (2.52e-04 vs 2.52e-04) compared to all other LEO conjunction events.",
+  "headline": "FY-1C conjunctions have 0.9x lower median Pc (2.35e-04 vs 2.54e-04) compared to all other LEO conjunction events.",
   "comparisons": {
     "Median Pc": {
-      "fy1c": 0.0002522665,
-      "non_fy": 0.0002522665,
-      "ratio": 1.0
+      "fy1c": 0.0002347741,
+      "non_fy": 0.00025436975,
+      "ratio": 0.92
     },
     "Mean Pc": {
-      "fy1c": 0.0005862715871194378,
-      "non_fy": 0.0014123086048478597,
-      "ratio": 0.42
+      "fy1c": 0.0008341684335302806,
+      "non_fy": 0.001147827797749196,
+      "ratio": 0.73
     },
     "Max Pc": {
-      "fy1c": 0.01057011,
+      "fy1c": 0.03430419,
       "non_fy": 0.114766,
-      "ratio": 0.09
+      "ratio": 0.3
     },
     "75th pctile Pc": {
-      "fy1c": 0.0005195457,
-      "non_fy": 0.0005869705,
-      "ratio": 0.89
+      "fy1c": 0.0004960233,
+      "non_fy": 0.0005692073500000001,
+      "ratio": 0.87
     },
     "Median miss (km)": {
-      "fy1c": 143.0,
-      "non_fy": 278.0,
-      "ratio": 0.51
+      "fy1c": 153.0,
+      "non_fy": 341.0,
+      "ratio": 0.45
     },
     "Mean miss (km)": {
-      "fy1c": 222.92740046838406,
-      "non_fy": 764.4236559139785,
-      "ratio": 0.29
+      "fy1c": 229.81683899556867,
+      "non_fy": 1132.6629239766082,
+      "ratio": 0.2
     },
     "Min miss (km)": {
       "fy1c": 1.0,
@@ -41,8 +41,8 @@
       "non_fy": 100.0
     },
     "pct_above_1e-03": {
-      "fy1c": 12.9,
-      "non_fy": 15.1
+      "fy1c": 13.0,
+      "non_fy": 14.7
     }
   }
 }
